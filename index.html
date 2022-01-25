@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neoplasticism</title>
+</head>
+<body>
+    <style type="text/css">
+    :root{
+    }
+    .container{
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(10, 100px);
+    }
+    .container>div{
+            background-color: cornflowerblue;
+        }
+        #e1{
+            grid-column: 1/3;
+            grid-row: 1/2;
+            background-color: white;
+        }
+        #e2{
+            grid-column: 3/6;
+            grid-row: 1/2;
+            background-color: white;
+        }
+        #e3{
+            grid-column: 6/8;
+            grid-row: 1/2;
+            background-color: yellow;
+        }
+        #e4{
+            grid-column: 1/2;
+            grid-row: 2/4;
+            background-color: white;
+        }
+        #e5{
+            grid-column: 2/6;
+            grid-row: 2/7;
+            background-color: red;
+        }
+        #e6{
+            grid-column: 6/8;
+            grid-row: 2/4;
+            background-color: yellow;
+        }
+        #e7{
+            grid-column: 6/8;
+            grid-row: 4/7;
+            background-color: white;
+        }
+        #e8{
+            grid-column: 1/2;
+            grid-row: 4/8;
+            background-color: white;
+        }
+        #e9{
+            grid-column: 2/4;
+            grid-row: 7/8;
+            background-color: black;
+        }
+        #e10{
+            grid-column: 4/6;
+            grid-row: 7/8;
+            background-color: white;
+        }
+        #e11{
+            grid-column: 6/8;
+            grid-row: 7/8;
+            background-color: white;
+        }
+        #e12{
+            grid-column: 1/2;
+            grid-row: 8/11;
+            background-color: yellow;
+        }
+        #e13{
+            grid-column: 2/4;
+            grid-row: 8/9;
+            background-color: black;
+        }
+        #e14{
+            grid-column: 4/6;
+            grid-row: 8/9;
+            background-color: white;
+        }
+        #e15{
+            grid-column: 6/8;
+            grid-row: 8/10;
+            background-color: blue;
+        }
+        #e16{
+            grid-column: 2/4;
+            grid-row: 9/11;
+            background-color: white;
+        }
+        #e17{
+            grid-column: 4/6;
+            grid-row: 9/10;
+            background-color: black;
+        }
+        #e18{
+            grid-column: 4/8;
+            grid-row: 10/11;
+            background-color: white;
+        }
+        #e19{
+            grid-column: 8/9;
+            grid-row: 1/8;
+            background-color: white;
+        }
+        #e20{
+            grid-column: 8/9;
+            grid-row: 8/11;
+            background-color: red;
+        }
+    @media (max-width:1204px){
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(17, 150px);
+        }
+        #e1{
+            grid-column: 1/3;
+            grid-row: 1/2;
+            background-color: white;
+        }
+        #e2{
+            grid-column: 1/5;
+            grid-row: 2/3;
+            background-color: white;
+        }
+        #e3{
+            grid-column: 3/4;
+            grid-row: 1/2;
+            background-color: yellow;
+        }
+        #e4{
+            grid-column: 4/5;
+            grid-row: 2/3;
+            background-color: white;
+        }
+        #e5{
+            grid-column: 1/5;
+            grid-row: 3/6;
+            background-color: red;
+        }
+        #e6{
+            grid-column: 1/3;
+            grid-row: 6/8;
+            background-color: yellow;
+        }
+        #e7{
+            grid-column: 3/5;
+            grid-row: 6/8;
+            background-color: white;
+        }
+        #e8{
+            grid-column: 1/2;
+            grid-row: 8/11;
+            background-color: white;
+        }
+        #e9{
+            grid-column: 2/5;
+            grid-row: 9/11;
+            background-color: black;
+        }
+        #e10{
+            grid-column: 2/3;
+            grid-row: 8/9;
+            background-color: white;
+        }
+        #e11{
+            grid-column: 1/2;
+            grid-row: 11/12;
+            background-color: white;
+        }
+        #e12{
+            grid-column: 1/2;
+            grid-row: 12/14;
+            background-color: yellow;
+        }
+        #e13{
+            grid-column: 2/5;
+            grid-row: 11/12;
+            background-color: black;
+        }
+        #e14{
+            grid-column: 2/3;
+            grid-row: 12/13;
+            background-color: white;
+        }
+        #e15{
+            grid-column: 3/5;
+            grid-row: 12/14;
+            background-color: blue;
+        }
+        #e16{
+            grid-column: 2/5;
+            grid-row: 14/17;
+            background-color: white;
+        }
+        #e17{
+            grid-column: 2/3;
+            grid-row: 12/14;
+            background-color: black;
+        }
+        #e18{
+            grid-column:2/5;
+            grid-row: 15/17;
+            background-color: white;
+        }
+        #e19{
+            grid-column: 1/2;
+            grid-row: 14/17;
+            background-color: white;
+        }
+        #e20{
+            grid-column: 2/5;
+            grid-row: 17/18;
+            background-color: red;
+        }
+    }
+    @media (max-width:600px){
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(16, 200px);
+        }
+        #e1{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            background-color: white;
+        }
+        #e2{
+            grid-column: 2/3;
+            grid-row: 1/2;
+            background-color: white;
+        }
+        #e3{
+            grid-column: 1/2;
+            grid-row: 2/3;
+            background-color: yellow;
+        }
+        #e4{
+            grid-column: 1/2;
+            grid-row: 3/5;
+            background-color: white;
+        }
+        #e5{
+            grid-column: 1/3;
+            grid-row: 5/7;
+            background-color: red;
+        }
+        #e6{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            background-color: yellow;
+        }
+        #e7{
+            grid-column: 2/3;
+            grid-row:3/5;
+            background-color: white;
+        }
+        #e8{
+            grid-column: 1/2;
+            grid-row: 7/9;
+            background-color: white;
+        }
+        #e9{
+            grid-column: 1/2;
+            grid-row: 9/10;
+            background-color: black;
+        }
+        #e10{
+            grid-column: 2/3;
+            grid-row: 7/8;
+            background-color: white;
+        }
+        #e11{
+            grid-column: 2/3;
+            grid-row: 8/9;
+            background-color: white;
+        }
+        #e12{
+            grid-column: 1/2;
+            grid-row: 10/12;
+            background-color: yellow;
+        }
+        #e13{
+            grid-column: 1/3;
+            grid-row: 12/13;
+            background-color: black;
+        }
+        #e14{
+            grid-column: 2/3;
+            grid-row: 9/10;
+            background-color: white;
+        }
+        #e15{
+            grid-column:2/3;
+            grid-row: 10/11;
+            background-color: blue;
+        }
+        #e16{
+            grid-column: 2/3;
+            grid-row: 11/12;
+            background-color: white;
+        }
+        #e17{
+            grid-column: 1/3;
+            grid-row: 12/14;
+            background-color: black;
+        }
+        #e18{
+            grid-column:1/3;
+            grid-row: 14/15;
+            background-color: white;
+        }
+        #e19{
+            grid-column: 1/2;
+            grid-row: 15/17;
+            background-color: white;
+        }
+        #e20{
+            grid-column: 2/3;
+            grid-row: 15/17;
+            background-color: red;
+        }
+    }
+    </style>
+<body>
+    <div class="container">
+        <div id="e1">
+            <h2>e1</h2>
+        </div>
+        <div id="e2">
+            <h2>e2</h2>
+        </div>
+        <div id="e3">
+            <h2>e3</h2>
+        </div>
+        <div id="e4">
+            <h2>e4</h2>
+        </div>
+        <div id="e5">
+            <h2>e5</h2>
+        </div>
+        <div id="e6">
+            <h2>e6</h2>
+        </div>
+        <div id="e7">
+            <h2>e7</h2>
+        </div>
+        <div id="e8">
+            <h2>e8</h2>
+        </div>
+        <div id="e9">
+            <h2>e9</h2
+        ></div>
+        <div id="e10">
+            <h2>e10</h2>
+        </div>
+        <div id="e11">
+            <h2>e11</h2>
+        </div>
+        <div id="e12">
+            <h2>e12</h2>
+        </div>
+        <div id="e13">
+            <h2>e13</h2>
+        </div>
+        <div id="e14">
+            <h2>e14</h2>
+        </div>
+        <div id="e15">
+            <h2>e15</h2>
+        </div>
+        <div id="e16">
+            <h2>e16</h2>
+        </div>
+        <div id="e17">
+            <h2>e17</h2>
+        </div>
+        <div id="e18">
+            <h2>e18</h2>
+        </div>
+        <div id="e19">
+            <h2>e19</h2
+        ></div>
+        <div id="e20">
+            <h2>e20</h2>
+        </div>
+    </div>
+</body>
+</html>
